@@ -112,3 +112,34 @@ a:hover {
 .hidden {
     display: none;
 }
+/* New styles for images and backgrounds */
+.content-background {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.contact-background {
+    background-image: url('background2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.language-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.language-image {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
